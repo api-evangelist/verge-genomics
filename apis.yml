@@ -1,8 +1,28 @@
 aid: verge-genomics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verge-genomics.png
 name: Verge Genomics
-description: Verge Genomics is a company surfaced as a portfolio company of y-combinator and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Verge Genomics (now operating as Verge Labs) is an AI-driven drug discovery
+  biotechnology company using human genomics data and machine learning to
+  discover and develop treatments for neurodegenerative and neuromuscular
+  diseases such as ALS and Parkinson's. Its proprietary all-in-human CONVERGE
+  platform integrates large-scale multi-omic patient datasets derived from human
+  tissue with machine learning to identify novel therapeutic targets, and has
+  been applied in pharmaceutical collaborations with Eli Lilly, AstraZeneca and
+  Alexion. As of enrichment, the company exposes no public developer API,
+  developer portal, SDK, or machine-readable API specification; CONVERGE is an
+  internal research platform, not a consumer-facing API.
 url: https://raw.githubusercontent.com/api-evangelist/verge-genomics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,32 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website: https://vergelabs.com/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Biotechnology
+- Drug Discovery
+- Genomics
+- Artificial Intelligence
+- Machine Learning
+- Healthcare
+- Neuroscience
 apis: []
+common:
+- type: Website
+  url: https://vergelabs.com/
+- type: Approach
+  url: https://www.vergegenomics.com/approach
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
