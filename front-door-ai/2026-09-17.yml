@@ -1,0 +1,27 @@
+# Front Door AI Index — verge-genomics — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: verge-genomics
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: vergelabs.com
+  final_host: vergelabs.com
+  ownership: shared
+  owner: verge-labs
+  shares_host_with:
+  - verge-labs
+  inherited_from: null
+  verdict: scored
+  score: null
+  host_score: 12
+  density: null
+  words: 612
+  tiers:
+    agentic: 0
+    core: 12
+    model: 0
+  ambiguous: 0
+  top_terms:
+    foundation model: 7
+    AI: 5
